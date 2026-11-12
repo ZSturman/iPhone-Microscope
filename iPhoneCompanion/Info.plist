@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>Microscope Camera</string>
+	<key>CFBundleDisplayName</key>
+	<string>Microscope Camera</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>CFBundleVersion</key>
+	<string>8</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Capture specimens with your chosen rear lens and send the live image to your paired Mac.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Find and stream to your paired Mac and receive its camera controls.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_micro-camera._tcp</string>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.local.iPhoneMicroscope.pair</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>benchlens</string>
+			</array>
+		</dict>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+</dict>
+</plist>
